@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>演習課題</title>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <h1>株式会社TECH</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">ホーム</a></li>
+                <li><a href="">企業情報</a></li>
+                <li><a href="#gaiyou">会社概要</a></li>
+                <li><a href="">よくある質問</a></li>
+                <li><a href="#toiawase">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <img src="img/mv.png" alt="画像ファイル">
+        <p>最新のテクノロジーで社会問題を解決</p>
+    </header>
+
+    <!-- メイン -->
+    <main>
+        <!-- 会社概要 -->
+        <section>
+            <h2 id="gaiyou">会社概要</h2>
+            <table>
+            <tr>
+                <th>会社名</th>
+                <td>株式会社TECH</td>
+            </tr>
+            <tr>
+                <th>代表者</th>
+                <td>山田太郎</td>
+            </tr>
+            <tr>
+                <th>所在地</th>
+                <td>東京都渋谷区神宮前</td>
+            </tr>
+            <tr>
+                <th>設立</th>
+                <td>2019/07/17</td>
+            </tr>
+            <tr>
+                <th>従業員数</th>
+                <td>100人</td>
+            </tr>
+            <tr>
+                <th>資本金</th>
+                <td>1000万円</td>
+            </tr>
+            </table>
+        </section>
+
+        <!-- お問い合わせ -->
+		<section>
+			<h2 id="toiawase">お問い合わせ</h2>
+            <form action="">
+                <div>
+                    <label for="company">会社名</label>
+                    <input type="text" id="company"　name="company">
+                </div>
+                <div>
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="inquiry">お問い合わせ内容</label>
+                    <textarea id="inquiry" name="inquiry"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="申し込み">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer>
+        <small>&copy;2020 TECH inc.</small>
+    </footer>
+</body>
+</html>
